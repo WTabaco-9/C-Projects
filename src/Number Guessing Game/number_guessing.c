@@ -7,7 +7,7 @@ void start();
 
 int main(void)
 {  
-    printf("Number Guessing Game\n\n");
+    printf("Number Guessing Game V1.0\n\n");
     start();
     return 0;
 }

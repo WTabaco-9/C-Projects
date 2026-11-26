@@ -15,9 +15,14 @@ typedef struct
 /* Loop */
 void start();
 
+/* Functions */
+void MainMenu();
+
+
 int main(void)
 {
-    printf("Student Management System\n\n");
+    printf("Student Management System V1.0\n\n");
+    start();
     return 0;
 }
 
@@ -25,6 +30,18 @@ int main(void)
 void start()
 {
     Student class[CLASS_SIZE];
+    Student student;
+    printf("=============================================\nWelcome to the Class!\nMaximum Class Size: %i\n=============================================\n\n\n\n\n", CLASS_SIZE);
+
+    while (1)
+    {
+        MainMenu();
+    }
     
     return;
+}
+
+void MainMenu()
+{
+
 }

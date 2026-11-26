@@ -28,7 +28,7 @@ int main(void)
 /* Function definitions */
 void start()
 {
-    printf("Starting calculator...\n\n");
+    printf("Calculator V1.0\n\n");
 
     /* Main loop */
     while (1)
