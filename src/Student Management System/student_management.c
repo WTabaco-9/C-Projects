@@ -43,5 +43,15 @@ void start()
 
 void MainMenu()
 {
-
+    /* Main Features
+     *
+     * 1 - Create/Add
+     * 2 - Delete/Remove
+     * 3 - Edit/Modify
+     * 4 - Search by an attribute
+     * 5 - Sort by an attribute
+     * 
+     * 0 - Exit
+     * 
+     */
 }
