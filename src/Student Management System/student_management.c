@@ -25,7 +25,7 @@ void start();
 
 /* Functions */
 void MainMenu();
-
+Student CreateStudent(Student class[], const int size);
 
 int main(void)
 {
@@ -81,4 +81,9 @@ void MainMenu()
     printf("1 - Create/Add a Student\n");
     printf("2 - Delete/Remove a Student\n");
     printf("=========================================\n\n");
+}
+
+Student CreateStudent(Student class[], const int size)
+{
+    
 }
