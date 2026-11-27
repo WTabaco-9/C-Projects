@@ -69,7 +69,6 @@ void start()
                 break;
         }
     }
-    return;
 }
 
 float add(float x, float y)
